@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuntriSolar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    <ul>
+      <li class="logo">
+        <a href="index.html"><img src="./img/logo/mainlogo.png" alt="SuntriSolar Logo"></a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+      <li class="hideOnMobile"><a href="services.html">Services</a></li>
+      <li class="hideOnMobile"><a href="projects.html">Projects</a></li>
+      <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+
+  <!--HOMEPAGE SECTION-->
+  <section id="#home">
+    <div class="home-container">
+        <div class="content">
+        <h1>Empowering Tomorrow <br>
+          with the Sun Today</h1>
+        <p>Innovative, sustainable, and affordable solar energy  
+          solutions <br> for homes and businesses in Batangas and beyond.</p>
+        <a href="about.html" class="btn">Get Started</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="boxes">
+  <div class="box">
+    <img src="./img/homepage/boximg1.jpg" alt="Affordable Solutions">
+    <div class="box-text">
+      <h3>Affordable Solutions</h3>
+      <p>We offer cost-efficient solar systems tailored to your energy needs.</p>
+    </div>
+  </div>
+
+  <div class="box center-box">
+    <div class="box-text">
+      <h3>Sustainable Energy</h3>
+      <p>Our systems help reduce carbon footprint and protect the environment.</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-text">
+      <h3>Reliable Service</h3>
+      <p>We ensure quality installation and long-term support for every client.</p>
+    </div>
+    <img src="./img/homepage/boximg2.jpg" alt="Reliable Service">
+  </div>
+</section>
+
+  <!--ABOUT SECTION-->
+  <section class="about-section">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="./img/about/about-pic2.png" alt="Solar Panels">
+    </div>
+
+    <div class="about-text">
+      <h2>About <span>SuntriSolar</span></h2>
+      <p>
+        The company was brought to life by an enthusiastic individuals with a keen interest in solar energy.
+      </p>
+      <p>
+        This journey was sparked from their time in the construction industry, where they identified the untapped potential of solar energy. Motivated by their passion and expertise, they decided to establish a business aiming to foster a more sustainable future.
+      </p>
+
+      <a href="about.html" class="learn-btn">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS & SERVICES SECTION -->
+<section class="product-section">
+  <div class="product-container">
+
+    <h2 class="product-title">PRODUCTS <span>&</span> SERVICES</h2>
+
+    <p class="product-subtitle">
+      Discover our range of innovative solar products designed for efficiency and durability.
+      <br>We provide complete energy solutions tailored to your everyday needs.
+    </p>
+
+    <div class="product-card">
+      <div class="product-list">
+
+        <a href="services.html" class="product-item">
+          <img src="./img/products-services/SolarInstallation.png" alt="Residential Solar Solutions">
+          <span>Residential Solar Solutions</span>
+        </a>
+
+        <a href="services.html" class="product-item">
+          <img src="./img/products-services/BatteryStorage.png" alt="Commercial and Industrial Services">
+          <span>Commercial & Industrial Services</span>
+        </a>
+
+        <a href="services.html" class="product-item">
+          <img src="./img/products-services/HybridSystems.png" alt="Energy Storage Solution">
+          <span>Energy Storage Solution</span>
+        </a>
+
+        <a href="services.html" class="product-item">
+          <img src="./img/products-services/MaintenanceServices.png" alt="Maintenance Services">
+          <span>Maintenance Services</span>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</section>
+
+<section class="projects-section">
+  <div class="projects-container">
+
+    <div class="projects-header">
+      <h2>Our <span>Projects</span></h2>
+      <p>Explore our solar projects that combine smart design, advanced technology, and clean energy.</p>
+    </div>
+
+
+<div class="project-row">
+  <div class="project-images">
+    <img src="./img/projects-pic/proj1.png" alt="Solar Installation">
+  </div>
+
+  <div class="project-text">
+    <p>
+      One of SuntriSolar’s grid-tied solar setups is designed for efficiency
+      and reliability, featuring a 5kW Solis inverter paired with 10 units
+      of 550W Jinko Solar panels for optimal energy generation.
+    </p>
+  </div>
+</div>
+
+<div class="project-row reverse">
+  <div class="project-text">
+    <p>
+      The system also includes an online monitoring feature that allows
+      real-time tracking of energy production and consumption, helping
+      users manage their energy use effectively.
+    </p>
+    <a href="projects.html" class="project-btn">See More</a>
+  </div>
+
+  <div class="project-images">
+    <img src="./img/projects-pic/proj2.png" alt="Monitoring System">
+  </div>
+</div>
+
+
+<!--BENEFITS-->
+<section class="benefits-section">
+  <div class="benefits-overlay">
+    <div class="benefits-header">
+      <span class="benefits-tag">BENEFITS</span>
+      <h2>Why Choose Us?</h2>
+    </div>
+
+    <div class="benefits-cards">
+      <div class="benefit-card">
+        <div class="icon">☀️</div>
+        <h3>Affordable Energy</h3>
+        <p>
+          We provide cost-efficient solar systems that help lower electricity
+          bills while protecting the environment.
+        </p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="icon">⚡</div>
+        <h3>Reliable Systems</h3>
+        <p>
+          We use trusted solar panels, inverters, and components to ensure
+          long-lasting performance and safety.
+        </p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="icon">🤝</div>
+        <h3>Customer-First Service</h3>
+        <p>
+          Every project is tailored to your needs. From consultation to
+          installation, your satisfaction comes first.
+        </p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="icon">🛠</div>
+        <h3>After-Sales Support</h3>
+        <p>
+          We offer maintenance, monitoring, warranty assistance, and technical
+          support to keep your system running efficiently.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+
+    <div class="contact-header">
+      <p class="contact-small">CONTACT US</p>
+      <h2>Have a Project Idea?</h2>
+      <p class="contact-sub">Let’s Talk!</p>
+    </div>
+
+    <div class="contact-content">
+
+<form class="contact-form" id="contact-form">
+  <div class="contact-row">
+    <input type="text" name="name" placeholder="First Name*" required>
+    <input type="text" name="last_name" placeholder="Last Name*" required>
+  </div>
+
+  <div class="contact-row">
+    <input type="email" name="email" placeholder="Email*" required>
+    <input type="text" name="phone" placeholder="Phone Number*" required>
+  </div>
+
+  <input type="text" name="subject" placeholder="Subject*" class="full-input" required>
+  <textarea name="message" placeholder="Message*" required></textarea>
+
+  <button type="submit" class="contact-btn">Send Message</button>
+
+  <!-- STATUS MESSAGE -->
+  <p id="form-status"></p>
+</form>
+
+      <!-- INFO BOX -->
+      <div class="contact-info">
+        <h4>ADDRESS</h4>
+        <p>Brgy. San Miguel, Sto. Tomas, Batangas</p>
+
+        <h4>CONTACT</h4>
+        <p>09176593556 / 09338526501</p>
+        <p>suntrisolar@gmail.com</p>
+
+        <h4>STAY CONNECTED</h4>
+            <div class="contact-icons">
+              <a href="https://www.facebook.com/people/SuntriSolar/61552862064636/" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span>f</span>
+              </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+
+
+<!--FOOTER-->
+<footer class="site-footer">
+
+  <div class="footer-content">
+    
+    <!-- LOGO -->
+    <div class="footer-logo">
+      <img src="./img/logo/mainlogo.png" alt="Company Logo">
+    </div>
+
+<!-- TOP INFO BAR -->
+<div class="top-info">
+  <span><a href="services.html">Solar Solutions</a></span>
+  <span class="dot">•</span>
+  <span><a href="services.html">Battery Storage</a></span>
+  <span class="dot">•</span>
+  <span><a href="services.html">Hybrid Systems</a></span>
+  <span class="dot">•</span>
+  <span><a href="services.html">Maintenance Services</a></span>
+</div>
+
+    
+
+  <hr class="top-divider">
+
+    
+    <!-- NAV LINKS -->
+    <ul class="footer-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- SOCIAL ICONS -->
+    <div class="footer-social">
+      <a href="https://www.facebook.com/people/SuntriSolar/61552862064636/"><img src="./img/homepage/facebook.png" alt="Facebook"></a>
+    </div>
+
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="footer-bottom">
+    © <span id="year"></span> All Rights Reserved
+  </div>
+
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</header>
+</body>
+</html>
